@@ -43,13 +43,49 @@ data:extend(
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      layers =
+      {
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier1/assembling-machine-1.png",
+          priority="high",
+          width = 108,
+          height = 114,
+          frame_count = 32,
+          line_length = 8,
+          shift = util.by_pixel(0, 2),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier1/hr-assembling-machine-1.png",
+            priority="high",
+            width = 214,
+            height = 226,
+            frame_count = 32,
+            line_length = 8,
+            shift = util.by_pixel(0, 2),
+            scale = 0.5
+          }
+        },
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier1/assembling-machine-1-shadow.png",
+          priority="high",
+          width = 95,
+          height = 83,
+          frame_count = 32,
+          line_length = 8,
+          draw_as_shadow = true,
+          shift = util.by_pixel(8.5, 5.5),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier1/hr-assembling-machine-1-shadow.png",
+            priority="high",
+            width = 190,
+            height = 165,
+            frame_count = 32,
+            line_length = 8,
+            draw_as_shadow = true,
+            shift = util.by_pixel(8.5, 5),
+            scale = 0.5
+          }
+        },
+      },
     },
     crafting_categories = {"crafting"},
     crafting_speed = 0.1,
@@ -154,13 +190,49 @@ data:extend(
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
-      priority = "high",
-      width = 113,
-      height = 99,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.4, -0.06}
+      layers =
+      {
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier2/assembling-machine-2.png",
+          priority = "high",
+          width = 108,
+          height = 110,
+          frame_count = 32,
+          line_length = 8,
+          shift = util.by_pixel(0, 4),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier2/hr-assembling-machine-2.png",
+            priority = "high",
+            width = 214,
+            height = 218,
+            frame_count = 32,
+            line_length = 8,
+            shift = util.by_pixel(0, 4),
+            scale = 0.5
+          }
+        },
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier2/assembling-machine-2-shadow.png",
+          priority = "high",
+          width = 98,
+          height = 82,
+          frame_count = 32,
+          line_length = 8,
+          draw_as_shadow = true,
+          shift = util.by_pixel(12, 5),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier2/hr-assembling-machine-2-shadow.png",
+            priority = "high",
+            width = 196,
+            height = 163,
+            frame_count = 32,
+            line_length = 8,
+            draw_as_shadow = true,
+            shift = util.by_pixel(12, 4.75),
+            scale = 0.5
+          }
+        },
+      },
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
@@ -278,13 +350,49 @@ data:extend(
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
-      priority = "high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.84, -0.09}
+      layers =
+      {
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier3/assembling-machine-3.png",
+          priority = "high",
+          width = 108,
+          height = 119,
+          frame_count = 32,
+          line_length = 8,
+          shift = util.by_pixel(0, -0.5),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier3/hr-assembling-machine-3.png",
+            priority = "high",
+            width = 214,
+            height = 237,
+            frame_count = 32,
+            line_length = 8,
+            shift = util.by_pixel(0, -0.75),
+            scale = 0.5
+          }
+        },
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier3/assembling-machine-3-shadow.png",
+          priority = "high",
+          width = 130,
+          height = 82,
+          frame_count = 32,
+          line_length = 8,
+          draw_as_shadow = true,
+          shift = util.by_pixel(28, 4),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier3/hr-assembling-machine-3-shadow.png",
+            priority = "high",
+            width = 260,
+            height = 162,
+            frame_count = 32,
+            line_length = 8,
+            draw_as_shadow = true,
+            shift = util.by_pixel(28, 4),
+            scale = 0.5
+          }
+        },
+      },
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 5,
@@ -366,13 +474,49 @@ data:extend(
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-4.png",
-      priority = "high",
-      width = 113,
-      height = 99,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.4, -0.06}
+      layers =
+      {
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier4/assembling-machine-4.png",
+          priority = "high",
+          width = 108,
+          height = 119,
+          frame_count = 32,
+          line_length = 8,
+          shift = util.by_pixel(0, -0.5),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier4/hr-assembling-machine-4.png",
+            priority = "high",
+            width = 214,
+            height = 237,
+            frame_count = 32,
+            line_length = 8,
+            shift = util.by_pixel(0, -0.75),
+            scale = 0.5
+          }
+        },
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier4/assembling-machine-4-shadow.png",
+          priority = "high",
+          width = 130,
+          height = 82,
+          frame_count = 32,
+          line_length = 8,
+          draw_as_shadow = true,
+          shift = util.by_pixel(28, 4),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier4/hr-assembling-machine-4-shadow.png",
+            priority = "high",
+            width = 260,
+            height = 162,
+            frame_count = 32,
+            line_length = 8,
+            draw_as_shadow = true,
+            shift = util.by_pixel(28, 4),
+            scale = 0.5
+          }
+        },
+      },
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
@@ -495,25 +639,46 @@ data:extend(
       layers =
       {
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier5/assembling-machine-5.png",
           priority = "high",
-          width = 142,
-          height = 113,
+          width = 108,
+          height = 119,
           frame_count = 32,
           line_length = 8,
-          shift = {0.84, -0.09},
+          shift = util.by_pixel(0, -0.5),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier5/hr-assembling-machine-5.png",
+            priority = "high",
+            width = 214,
+            height = 237,
+            frame_count = 32,
+            line_length = 8,
+            shift = util.by_pixel(0, -0.75),
+            scale = 0.5
+          }
         },
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier5/assembling-machine-5-shadow.png",
           priority = "high",
-          width = 142,
-          height = 113,
+          width = 130,
+          height = 82,
           frame_count = 32,
           line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.7, g = 0.2, b = 0.1},
+          draw_as_shadow = true,
+          shift = util.by_pixel(28, 4),
+          hr_version = {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/tier5/hr-assembling-machine-5-shadow.png",
+            priority = "high",
+            width = 260,
+            height = 162,
+            frame_count = 32,
+            line_length = 8,
+            draw_as_shadow = true,
+            shift = util.by_pixel(28, 4),
+            scale = 0.5
+          }
         },
-      }
+      },
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 125,
